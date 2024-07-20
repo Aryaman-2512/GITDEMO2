@@ -86,7 +86,7 @@ public class Registration {
 		boolean fname= false;
 		while(true){
 			
-		System.out.println("Enter firstName");
+		System.out.println("Enter the firstName");
 		String firstname = sc.nextLine();
 		if (!firstname.isEmpty() && firstname.matches("[a-zA-Z]+")){
 		obj.setFirstName(firstname);
