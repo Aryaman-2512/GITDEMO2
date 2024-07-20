@@ -18,7 +18,7 @@ public static void main(String[] args) throws Exception {
 	boolean exit = false;
 	while(true){
 	System.out.println("Welcome");
-	System.out.println(" 1. Create\n 2. Update\n 3. Delete\n 4. Search\n 5. Download\n 6. Comnplete Details\n 7. Buy Policy\n 8. Search policy\n 9. Upgrade policy\n 10.Summary of Indurance type \n 11.SearchByContact  \n 12.search agentclients");
+	System.out.println(" 1. Create\n 2. Update\n 3. Delete\n 4. Search\n 5. Download\n 6. Comnplete Details\n 7. Buy Policy\n 8. Search policy\n 9. Upgrade policy\n 10.Summary of Indurance type \n 11.SearchByContact  \n 12.search agentclients 13.");
 	
 	Scanner sc = new Scanner(System.in);
 	int n = sc.nextInt();
